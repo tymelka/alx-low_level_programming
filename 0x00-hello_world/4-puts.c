@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
+ * Description: 'First compiled c program'
  *
  * Return: 0
  */
