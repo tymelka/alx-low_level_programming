@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 /**
- * my_function - 0-positive_or_negative
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
