@@ -2,10 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 
-/** Betty style comment */
+/**
+ * function_name - Short description, single line
+ * @parameterx: Description of parameter x
+(* a blank line
+* Description: Longer description of the function)?
+(* section header: Section description)*
+* Return: Description of the returned value
+*/
 
 int main(void)
-/*entry point main program*/
 {
 int n;
 
