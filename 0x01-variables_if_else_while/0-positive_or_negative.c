@@ -5,6 +5,7 @@
 /** Betty style comment */
 
 int main(void)
+/*entry point main program*/
 {
 int n;
 
