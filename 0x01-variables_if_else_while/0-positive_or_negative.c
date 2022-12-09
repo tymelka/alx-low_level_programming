@@ -2,9 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
- * my_function - This is my description
- */
+/** Betty style comment */
 
 int main(void)
 {
