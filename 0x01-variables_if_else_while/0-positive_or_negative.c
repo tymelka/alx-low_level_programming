@@ -7,7 +7,6 @@
 /**
  * my_function - This is my description
  */
-
 int main(void)
 {
 int n;
