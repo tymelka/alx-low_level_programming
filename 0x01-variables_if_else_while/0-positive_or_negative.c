@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -12,15 +13,15 @@ int main(void)
   /* your code goes there */
   if (n>0)
 	 {
-	   printf("is positive")
+	   printf("is positive");
 	 }
   else if (n=0)
     {
-      printf("is zero")
+      printf("is zero");
     }
   else
     {
-      printf("is negative")
+      printf("is negative");
     }
  
    
