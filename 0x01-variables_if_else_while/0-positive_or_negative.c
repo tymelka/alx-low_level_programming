@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
 /**
  * my_function - This is my description
  */
+
 int main(void)
 {
 int n;
