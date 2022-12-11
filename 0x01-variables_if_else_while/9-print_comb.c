@@ -10,16 +10,16 @@
  */
 int main(void)
 {
-int x,y;
+int x, y;
 for (x = 48; x <= 57; x++)
 {
 if (x == 57)
 {
-y=255;
+y = 0;
 }
 else
 {
-y=44;
+y = 44;
 }
 putchar(x);
 putchar(y);
