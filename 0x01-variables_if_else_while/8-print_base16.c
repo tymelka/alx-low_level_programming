@@ -3,7 +3,6 @@
 #include <stdio.h>
 /* more headers goes there */
 
-
 /**
  * main - Entry point
  *
@@ -12,18 +11,20 @@
 int main(void)
 
 {
-int x;
-for (x = 0; x < 10; x++)
-  {
-    if (x == 0)
-      {
-	putchar('0');
-      }
-    else
-      {
-	putchar((x%10) + '0');
-      }
-  }
- putchar ('\n');
- return (0);
+  int x,c,i;
+for (i = 0 ; i <= 15 ; i++)
+{
+if (i < 10)
+{
+(c = 48);
+}
+else
+{
+(c = 87);
+}
+ x = (i + c);
+ putchar(x);
+}
+putchar ('\n');
+return (0);
 }
