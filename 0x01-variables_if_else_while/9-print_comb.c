@@ -13,17 +13,16 @@ int main(void)
 int x, y;
 for (x = 48; x <= 57; x++)
 {
-if (x == 57)
+putchar(x);
+if (x==57)
 {
-y = 0;
+break;
 }
 else
-{
-y = 44;
-}
-putchar(x);
-putchar(y);
+ {
+putchar(44);
 putchar(32);
+}
 }
 putchar ('\n');
 return (0);
