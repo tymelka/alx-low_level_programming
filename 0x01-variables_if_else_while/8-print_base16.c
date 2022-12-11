@@ -11,7 +11,7 @@
 int main(void)
 
 {
-  int x,c,i;
+int x,c,i;
 for (i = 0 ; i <= 15 ; i++)
 {
 if (i < 10)
@@ -22,8 +22,8 @@ else
 {
 (c = 87);
 }
- x = (i + c);
- putchar(x);
+x = (i + c);
+putchar(x);
 }
 putchar ('\n');
 return (0);
