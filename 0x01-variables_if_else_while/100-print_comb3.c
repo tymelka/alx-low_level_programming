@@ -17,12 +17,12 @@ for (n = 0; n < 99; n++)
 if (n <= 9)
 {
 pref = 48;
-sufx=44;
+sufx = 44;
 }
 else
 {
 pref = 48 + n/10;
-sufx=32;
+sufx = 32;
 }
 intpart = n/10;
 remain = n%10;
@@ -30,14 +30,17 @@ remain = n%10;
 if (remain == 0)
 {	     
 jump = intpart;
-n= n + jump;
+n = n + jump;
 }
 else
 {
 putchar (pref);
 putchar (n%10 + '0');
+if (intpart != 89)
+{
 putchar (sufx);
- if (intpart != 89)
+}
+if (intpart != 89)
 {
  putchar (32);
 }
