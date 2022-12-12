@@ -37,7 +37,10 @@ else
 putchar (pref);
 putchar (n%10 + '0');
 putchar (sufx);
-putchar (32);  
+ if (intpart != 89)
+{
+ putchar (32);
+}
 }
 }
 return 0;
