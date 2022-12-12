@@ -36,11 +36,11 @@ else
 {
 putchar (pref);
 putchar (n%10 + '0');
-if (intpart != 89)
+if (n != 89)
 {
 putchar (sufx);
 }
-if (intpart != 89)
+if (n != 89)
 {
  putchar (32);
 }
