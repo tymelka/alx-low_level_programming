@@ -10,21 +10,20 @@
  */
 int main(void)
 {
-int x,y;
-for (x = 48; x <= 57; x++)
-  {
-    if (x == 57)
-      {
-	y=36;
-      }
-    else
-      {
-	y=44;
-      }
+  int x, chprefix;
+for (x = '0'; x <= '9'; x++)
+{
+ if (x > '9')
+   {
+     chprefix=48;
+   }
+ else {chprefix='0';}
+putchar(chprefix);
 putchar(x);
-putchar(y);
+putchar(44);
 putchar(32);
-}
+
+ }
 putchar ('\n');
 return (0);
 }
