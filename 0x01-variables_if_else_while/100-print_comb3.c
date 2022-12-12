@@ -10,31 +10,33 @@
  */
 int main(void)
 {
-int n, intpart, remain, jump, pref;
+  int n, sufx, intpart, remain, jump, pref;
 
-for (n=0; n<99; n++)
+for (n = 0; n < 99; n++)
 {
 if (n <= 9)
 {
-pref=48;
+pref = 48;
+sufx=44;
 }
 else
 {
-pref=48+n/10;
+pref = 48 + n/10;
+sufx=32;
 }
-intpart=n/10;
-remain=n%10;
+intpart = n/10;
+remain = n%10;
 /*     printf("intpart is %d remainis  %d\n", intpart, remain); */
- if (remain==0)
+if (remain == 0)
 {	     
-jump=intpart;
-n=n+jump;
+jump = intpart;
+n= n + jump;
 }
 else
 {
 putchar (pref);
-putchar(n%10 + '0');
-putchar (44);
+putchar (n%10 + '0');
+putchar (sufx);
 putchar (32);  
 }
 }
