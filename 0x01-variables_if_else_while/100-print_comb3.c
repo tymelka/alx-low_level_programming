@@ -34,7 +34,7 @@ n = n + jump;
 else
 {
 putchar (pref);
-putchar (n%10 + '0');
+putchar (n % 10 + '0');
 if (n != 89)
 {
 putchar (44);
@@ -45,6 +45,6 @@ putchar (32);
 }
 }
 }
-putchar('\n'); 
+putchar('\n');
 return (0);
 }
