@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-  int n, sufx, intpart, remain, jump, pref;
+  int n, intpart, remain, jump, pref;
 
 for (n = 0; n < 99; n++)
 {
