@@ -1,16 +1,22 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
-void print_alphabet_x10(void)
+/**
+ * print_alphabet - a function that prints the alphabet, in lowercase
+ *
+ * Return: Always 0 (Succes)
+ */
+
+void print_alphabet(void)
 {
   int i;
 
   for (i = 97; i <= 122; i++)
     {
-      putchar(i);
+      _putchar(i);
     }
-  putchar('\n');
+     _putchar('\n');
 
 }
