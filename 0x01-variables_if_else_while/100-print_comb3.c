@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-  int n, intpart, remain, jump, pref;
+int n, intpart, remain, jump, pref;
 
 for (n = 0; n < 99; n++)
 {
@@ -20,14 +20,14 @@ pref = 48;
 }
 else
 {
-pref = 48 + n/10;
+pref = 48 + n / 10;
 
 }
-intpart = n/10;
-remain = n%10;
+intpart = n / 10;
+remain = n % 10;
 /*     printf("intpart is %d remainis  %d\n", intpart, remain); */
 if (remain == 0)
-{	     
+{
 jump = intpart;
 n = n + jump;
 }
@@ -46,5 +46,5 @@ putchar (32);
 }
 }
 putchar('\n'); 
-return 0;
+return (0);
 }
