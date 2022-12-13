@@ -39,10 +39,7 @@ if (n != 89)
 {
 putchar (44);
 }
-if (n != 89)
-{
  putchar (32);
-}
 }
 }
 return 0;
