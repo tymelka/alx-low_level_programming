@@ -4,19 +4,19 @@
 #include "main.h"
 
 /**
- * print_sign - a function that print sign of a number
+ * int_abs - a function that gives the absolute value
  * @n: integer number
- * Return: 1 if int c is positive, 0 if 0 and -1 if negative
+ * Return: the abolsute value of a number
  */
 int _abs(int n)
 
-  {
-    if (n < 0)
-      {
-	return n;
-      }
-    else
-      {
-      return -n;
-      } 	   
+{
+if (n > 0)
+{
+return n;
+}
+else
+{
+return -n;
+} 	   
 }
