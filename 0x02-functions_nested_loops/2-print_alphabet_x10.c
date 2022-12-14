@@ -2,6 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+* print_alphabet - a function that prints the alphabet, in lowercas 10 times
+*
+* Return: Always 0 (Succes)
+*/
+
 void print_alphabet_x10(void)
 {
 int i, n;
