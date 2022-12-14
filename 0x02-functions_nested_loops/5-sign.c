@@ -4,24 +4,25 @@
 #include "main.h"
 
 /**
- * _isalpha - a function that checks for alphabet character
+ * print_sing - a function that print sign of a number
  * @c: single letter input
- * Return: 1 if int c is a letter, 0 if otherwise
+ * Return: 1 if int c is positive, 0 if 0 and -1 if negative
  */
-int _isalpha(int c)
+int print_sign(int n)
 {
-  if (c > 1)
-    {
-    return (1);
-    putchar('+');
-    }
-  else if (c == 0)
-	      {
-    return (0);
-    putchar('0');
-	      }
-  else
-    return (-1);
-    putchar('-');
+if (n > 0)
+{
+_putchar ('+');
+return (1);
+}
+else if (n == 0)
+{
+_putchar ('0');
+return (0);
+}
+else
+{
+_putchar ('-');
+return (-1);
 }
 }
