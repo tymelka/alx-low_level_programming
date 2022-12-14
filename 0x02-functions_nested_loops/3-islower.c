@@ -13,11 +13,10 @@
 
 int _int_islower(int c)
 {
-int result, res;
 if (c >= 'a' && c <='z' )
 {
-return (1)
-else
+return (1);
+else;
 result = (0);
 }
 }
