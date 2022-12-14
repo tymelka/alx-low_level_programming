@@ -11,10 +11,10 @@
  * Return: Always 0 (Success)
  */
 
-int _int_islower(int c)
+int int_islower(int c)
 {
 int result, res;
-res = islower(c);
+res = _islower(c);
 if (res==0)
 {
 result = 1;
