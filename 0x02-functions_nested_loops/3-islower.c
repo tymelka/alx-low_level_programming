@@ -11,7 +11,7 @@
  * Return: Always 0 (Success)
  */
 
-int int_islower(int c)
+int _int_islower(int c)
 {
 int result, res;
 res = _islower(c);
