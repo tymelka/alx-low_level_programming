@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include <ctype.h>
 #include "main.h"
-
 
 /**
  *  int_islower - Entry point
@@ -17,11 +17,14 @@ int int_islower(int c)
 
   res = islower(c);
 
-    if res=0
+  if (res=0)
     {
       result = 1;
-   else
+    }
+  else
+    {
       result = 0;
     }
+
   return result;
 }
