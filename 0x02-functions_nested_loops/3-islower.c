@@ -11,14 +11,10 @@
  * Return: Always 0 (Success)
  */
 
-int _int_islower(int c)
+int _islower(int c)
 {
-if (c >= 'a' && c <='z' )
-  {
+  if (c >= 'a' && c <= 'z')
     return (1);
-  }
- else
-   {
-     return (0);
-   }
+  else
+    return (0);
 }
