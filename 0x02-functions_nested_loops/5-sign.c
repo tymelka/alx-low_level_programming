@@ -4,8 +4,8 @@
 #include "main.h"
 
 /**
- * print_sing - a function that print sign of a number
- * @c: single letter input
+ * print_sign - a function that print sign of a number
+ * @c: integer number
  * Return: 1 if int c is positive, 0 if 0 and -1 if negative
  */
 int print_sign(int n)
