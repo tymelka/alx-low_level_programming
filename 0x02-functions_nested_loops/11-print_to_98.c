@@ -8,16 +8,16 @@
  * @n: starting integer number
  * Return: nothing
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
   int i;
   if (n <= 98)
     {
     for (i = n; n=98; i++)
       {
-	putchar(n % 10+'0');
-	putchar (',');
-	putchar (' ');
+	_putchar(n % 10+'0');
+	_putchar (',');
+	_putchar (' ');
       }
     {
       else
@@ -25,9 +25,9 @@ void print_to_98(int n);
     {
     for (i = n; n=98; i--)
       {
-	putchar(n % 10 +'0');
-	putchar (',');
-	putchar (' ');
+	_putchar(n % 10 +'0');
+	_putchar (',');
+	_putchar (' ');
       }
     {
 }
