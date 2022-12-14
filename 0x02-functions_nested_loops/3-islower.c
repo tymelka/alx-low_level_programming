@@ -15,9 +15,9 @@ int int_islower(int c)
 {
   int result, res;
 
-  res = (islower(c));
+  res = islower(c);
 
-  if (res=0)
+  if (res==0)
     {
       result = 1;
     }
