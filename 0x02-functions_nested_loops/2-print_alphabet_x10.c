@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
-* function print_alphabet_x10: function alpha in lowercas 10 times
-*
-* Return: Always 0 (Succes)
+
+/*
+ * print_alphabet_x10: print alphabet ten times
+ * @parameterx: (description of parameter x)?)*
+ * 
+ * Description: Description of function
 */
 
 void print_alphabet_x10(void)
