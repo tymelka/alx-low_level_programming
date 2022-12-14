@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * int_abs - a function that gives the absolute value
+ * _abs - a function that gives the absolute value
  * @n: integer number
  * Return: the abolsute value of a number
  */
@@ -17,6 +17,6 @@ return (n);
 }
 else
 {
-return -(n);
+return (-n);
 }
 }
