@@ -3,12 +3,13 @@
 #include <stdio.h>
 
 
-/*
- * print_alphabet_x10: print alphabet ten times
- * @parameterx: (description of parameter x)?)*
+/**
+ * main - Entry point
  * 
- * Description: Description of function
-*/
+ * Description: 'the program's description'
+ * 
+ * Return: Always 0 (Success)
+ */
 
 void print_alphabet_x10(void)
 {
