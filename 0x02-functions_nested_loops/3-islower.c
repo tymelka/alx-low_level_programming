@@ -13,8 +13,8 @@
 
 int int_islower(int c)
 {
-  int result;
-  if (islower(c))
+  int result, n ;
+  if (islower(n))
     {
       result = 1;
     }
