@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* function print_alphabet_x10: function that prints the alphabe in lowercas 10 times
+* function print_alphabet_x10: function alpha in lowercas 10 times
 *
 * Return: Always 0 (Succes)
 */
