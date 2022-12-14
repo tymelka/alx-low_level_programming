@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * _islower - a function that checks for alphabet character
+ * _isalpha - a function that checks for alphabet character
  * @c: single letter input
  * Return: 1 if int c is a letter, 0 if otherwise
  */
