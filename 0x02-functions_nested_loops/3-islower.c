@@ -14,7 +14,8 @@
 int int_islower(int c)
 {
   int result, res;
-  res = islower(c)
+
+  res = islower(c);
 
     if res=0
     {
