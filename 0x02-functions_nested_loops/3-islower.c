@@ -11,20 +11,17 @@
  * Return: Always 0 (Success)
  */
 
-int int_islower(int c)
+int _int_islower(int c)
 {
-  int result, res;
-
-  res = islower(c);
-
-  if (res==0)
-    {
-      result = 1;
-    }
-  else
-    {
-      result = 0;
-    }
-
-  return result;
+int result, res;
+res = islower(c);
+if (res==0)
+{
+result = 1;
+}
+else
+{
+result = 0;
+}
+return result;
 }
