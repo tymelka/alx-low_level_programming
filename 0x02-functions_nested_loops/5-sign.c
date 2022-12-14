@@ -2,7 +2,7 @@
 #include <time.h>
 #include <ctype.h>
 #include "main.h"
-#include <stdio.h">
+
 /**
  * _isalpha - a function that checks for alphabet character
  * @c: single letter input
@@ -10,8 +10,18 @@
  */
 int _isalpha(int c)
 {
-if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
-return (1);
-else
-return (0);
+  if (c > 1)
+    {
+    return (1);
+    putchar('+');
+    }
+  else if n=0
+	      {
+    return (0);
+    putchar('0');
+	      }
+  else
+    return (-1);
+    putchar('-');
+}
 }

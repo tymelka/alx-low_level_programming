@@ -2,7 +2,7 @@
 #include <time.h>
 #include <ctype.h>
 #include "main.h"
-#include <stdio.h">
+
 /**
  * _isalpha - a function that checks for alphabet character
  * @c: single letter input
