@@ -5,7 +5,7 @@
 
 /**
  * jack_bauer - a function that returns hours and minutes
- * 
+ *
  * Return: retunrs 0
  */
 void jack_bauer(void)
