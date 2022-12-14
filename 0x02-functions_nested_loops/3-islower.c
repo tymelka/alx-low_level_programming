@@ -1,7 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-#include <ctype.h>
+#include <main.h>
+
+
+/**
+ *  int_islower - Entry point
+ *
+ * Description: 'check if a character is lower cases'
+ *
+ * Return: Always 0 (Success)
+ */
 
 int int_islower(int c)
 {
@@ -15,20 +23,4 @@ int int_islower(int c)
       result = 0;
     }
   return result;
-}
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-
-int main(void)
-{
-  int r;
-
-  r = islower(r);
-  putchar(r + '0');
-  putchar('\n');
-  
-  return (0);
 }
