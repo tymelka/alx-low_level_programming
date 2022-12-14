@@ -1,0 +1,15 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+#include "main.h"
+
+/**
+ * _abs - a function that gives the absolute value
+ * @n: integer number
+ * Return: the abolsute value of a number
+ */
+int print_last_digit(int n)
+
+{
+return (n%10);
+}
