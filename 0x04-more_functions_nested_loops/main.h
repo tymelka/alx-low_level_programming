@@ -1,10 +1,6 @@
+#ifndef BLAH
+#define BLAH
 
-#ifndef MAIN_H
-#define MAIN_H
-#include <stdio.h>
+int _isupper(int);
 
-
-int _isupper(int c);
-
-
-#endif /* MAIN_H */#ifndef MAIN_H
+#endif
