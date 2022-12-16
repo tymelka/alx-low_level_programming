@@ -1,15 +1,12 @@
 #include "main.h"
-
 /**
- * _isdigit - Check if is digit
- * @a: First Integer
- * @b: Second Integer
+ * mul - Multiplies two integers
+ * @x: The first number to multiply
+ * @y: The second number to multiply with first number
  *
- * Return: Rturns the multiplied value
+ * Return: The result of multiplication between x param and y param
  */
-int mul(int a, int b)
-
+int mul(int x, int y)
 {
-
-return (a * b);
+  return (x * y);
 }
