@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *fizz_buzz - print a line n times
+ *main - print fizz_buzz on multiples of 3 and 5
  *
  *Return: Returns none
  */
