@@ -1,38 +1,46 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
- *print_square - print a line n times
- *@size: size of sqaure
+ *fizz_buzz - print a line n times
  *
- *Return: Returns Void
+ *Return: Returns none
  */
 
-int  main (void)
+int main(void)
 {
-int i;
+  int i;
 
-for (i = 1; i <= 100; i++)
-  {
-    if (i % 3 == 0 && i % 5 == 0)
-      {
-	printf("FizzBuzz");
-      }
-    else if (i % 3 == 0)
-      {
-	printf("Fizz");
-      }
-    else if(i % 5 == 0)
-      {
-      	printf("Buzz");
-      }
-    else
-      {
-	printf("%d",i);
-      }
-    if (i != 100)
-      {
-	printf (" ");
-      }
-  }
-    printf("\n");
+
+  for (i = 1; i <= 100; i++)
+    {
+      if ((i % 3 == 0) && (i % 5 == 0))
+	{
+	  printf("FizzBuzz");
+	}
+      else if (i % 3 == 0)
+	{
+	  printf("Fizz");
+	}
+      else if (i % 5 == 0)
+	{
+	  printf("Buzz");
+	}
+      else
+	{
+	  printf("%d", i);
+	}
+
+
+      if (i != 100)
+	{
+	  printf(" ");
+	}
+    }
+
+
+  printf("\n");
+
+
+  return (0);
 }
