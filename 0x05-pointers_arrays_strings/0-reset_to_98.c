@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - update variable value
- * @m: value of integer to be changed
+ * @n: value of integer to be changed
  * Return:  none
  */
 
