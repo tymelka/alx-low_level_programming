@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * swap_int - swap two integers
- * @a: value of first integer to swap
- * @b: value of second integer to swap
- * Return:  none
+ * int _strlen  - determine the length of a string
+ * @s: the pointer to the string value
+ * Return: length of the string on the param
  */
 
 int _strlen(char *s)
