@@ -9,21 +9,15 @@
 void reverse_string(char *s)
 {
 
-  int i,len,tmp;
+  int i,length;
 
-  len = 0;
 
-  while (*s != '\0')
-    {
-      len = len + 1;
-      s = s + 1;
-    }
-  
+
 
   for(i = 0;i < len/2; i++)
     {
-      tmp=s[i];
+      temp=s[i];
       s[i]=s[len];
-      s[len--]=tmp;
+      string[length--]=temp;
     }
 }

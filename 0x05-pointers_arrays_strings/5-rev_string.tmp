@@ -8,8 +8,7 @@
 
 void reverse_string(char *s)
 {
-
-  int i,len,tmp;
+  int i, len;
 
   len = 0;
 
@@ -18,12 +17,11 @@ void reverse_string(char *s)
       len = len + 1;
       s = s + 1;
     }
-  
 
-  for(i = 0;i < len/2; i++)
+  for (i=len; i <= 0; i--)
     {
-      tmp=s[i];
-      s[i]=s[len];
-      s[len--]=tmp;
+
+      s[i]= s[len-i];
+ 
     }
 }

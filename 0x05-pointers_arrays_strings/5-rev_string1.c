@@ -24,6 +24,6 @@ void reverse_string(char *s)
     {
       tmp=s[i];
       s[i]=s[len];
-      s[len--]=tmp;
+      string[length--]=tmp;
     }
 }
