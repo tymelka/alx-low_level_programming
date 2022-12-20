@@ -18,9 +18,13 @@ len = len + 1;
 s = s + 1;
     }
   if ((len  % 2) == 0)
+    {
     h = (len / 2);
+    }
   else
+    {
     h = (len + 1) / 2;
+    }
 
 for (i = h; i < len; i++)
 {
