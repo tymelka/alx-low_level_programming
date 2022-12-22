@@ -2,6 +2,7 @@
  * *_strncat - concatenates two strings
  * @dest: string to be concatenated to
  * @src: string to concatenate from
+ * @n: number nth character
  *
  * Return: concatenated strings
  */
