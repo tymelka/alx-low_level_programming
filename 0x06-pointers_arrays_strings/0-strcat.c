@@ -6,7 +6,7 @@
  * Return: concatenated strings
  */
 
-char _strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 
 {
 int i, j;
@@ -24,5 +24,5 @@ i++;
 j++;
 }
 
-return (*dest);
+return (dest);
 }
