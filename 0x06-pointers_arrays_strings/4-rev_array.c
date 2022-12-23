@@ -1,9 +1,9 @@
 /**
  * reverse_array - compares two strings
- * @a: 
+ * @a: parameter
  * @n: Number of array elements
  *
- * Return: 0 if equal or b if is different
+ * Return: none
  */
 void reverse_array(int *a, int n)
 {
