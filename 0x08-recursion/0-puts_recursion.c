@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _puts_recursion - function like puts();
  * @s: variable for address of the string
