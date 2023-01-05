@@ -1,0 +1,25 @@
+#include "main.h"
+
+/**
+ * _sqrt_recursion - compute square root
+ * @n: input
+ * Return: the square root
+ */
+
+int _sqrt(int i, int n)
+{
+if (i <= n / 2)
+{
+if (n == 1)
+return n;
+if (i * i != n)
+return (_sqrt(i + 1, n));
+return (i);
+}
+return (-1);
+}
+
+int _sqrt_recursion(int n)
+{
+  return (_sqrt(0, n));
+}
