@@ -6,15 +6,15 @@
  * Return: the square root
  */
 
-int _sqrt(int i, int n)
+int _sqrt(int rem, int n)
 {
-if (i <= n / 2)
+if (rem <= n / 2)
 {
 if (n == 1)
 return n;
-if (i * i != n)
-return (_sqrt(i + 1, n));
-return (i);
+if (rem * rem != n)
+return (_sqrt(rem + 1, n));
+return (rem);
 }
 return (-1);
 }
